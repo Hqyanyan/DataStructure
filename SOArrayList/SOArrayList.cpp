@@ -33,14 +33,16 @@ void SOArrayList::append(const char k1, const char k2) {
 
 int SOArrayList::find(const char k1, const char k2) {
     int index = 0;
+    bool flag = false;
     for (int i = 0; i < maxSize; i += 2) {
         if (listArray[i] == k1 && listArray[i + 1] == k2) {
             index = i;
+            flag = true;
             break;
         }
     }
-    if (index == maxSize) {
-        return index;
+    if (index == 0 && !flag) {
+        return maxSize;
     }
     renovate(index);
     return index;

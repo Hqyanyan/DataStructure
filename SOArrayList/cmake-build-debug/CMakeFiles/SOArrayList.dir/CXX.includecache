@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/SOArrayList.h
+C:/Users/istil/Desktop/code/DataStructure/SOArrayList/SOArrayList.h
 iostream
 -
 
-C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/main.cpp
+C:/Users/istil/Desktop/code/DataStructure/SOArrayList/main.cpp
 fstream
 -
 SOArrayList.h
-C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/SOArrayList.h
+C:/Users/istil/Desktop/code/DataStructure/SOArrayList/SOArrayList.h
 
