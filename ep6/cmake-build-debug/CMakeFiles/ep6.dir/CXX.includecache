@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/ep6/MatrixGraph.cpp
+MatrixGraph.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/ep6/MatrixGraph.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/ep6/MatrixGraph.h
+iostream
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/ep6/main.cpp
+MatrixGraph.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/ep6/MatrixGraph.h
+

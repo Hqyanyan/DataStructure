@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BinTree1/BinTree.cpp
+cmath
+-
+BinTree.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BinTree1/BinTree.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BinTree1/BinTree.h
+iostream
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BinTree1/main.cpp
+BinTree.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BinTree1/BinTree.h
+

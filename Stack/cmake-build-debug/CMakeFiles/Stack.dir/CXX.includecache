@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Array_Stack.cpp
+Array_Stack.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Array_Stack.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Array_Stack.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Linked_Stack.cpp
+Linked_Stack.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Linked_Stack.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/Linked_Stack.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Stack/main.cpp
+iostream
+-
+

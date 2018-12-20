@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Polynomial/Poly.cpp
+Poly.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Polynomial/Poly.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Polynomial/Poly.h
+iostream
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Polynomial/main.cpp
+Poly.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Polynomial/Poly.h
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/StaticSearchTable/BST.cpp
+BST.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/StaticSearchTable/BST.h
+cmath
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/StaticSearchTable/BST.h
+Node.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/StaticSearchTable/Node.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/StaticSearchTable/Node.h
+iostream
+-
+

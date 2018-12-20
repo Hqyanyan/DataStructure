@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Array_List.cpp
+iostream
+-
+Array_List.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Array_List.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Array_List.h
+List.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/List.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Linked_List.cpp
+Linked_List.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Linked_List.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Linked_List.h
+List.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/List.h
+iostream
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/List.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/main.cpp
+Array_List.cpp
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Array_List.cpp
+Linked_List.cpp
+C:/Users/istil/Desktop/istillmessup/DataStructures/List/Linked_List.cpp
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/SOArrayList.h
+iostream
+-
+
+C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/main.cpp
+fstream
+-
+SOArrayList.h
+C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/SOArrayList.h
+

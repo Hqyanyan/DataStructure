@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Graph/Graph.h
+iostream
+-
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Graph/LinkedGraph.cpp
+LinkedGraph.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Graph/LinkedGraph.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/Graph/LinkedGraph.h
+Graph.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/Graph/Graph.h
+vector
+-
+algorithm
+-
+

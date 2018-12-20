@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BST.cpp
+BST.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BST.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BST.h
+BSTNode.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BSTNode.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BSTNode.cpp
+BSTNode.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BSTNode.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BSTNode.h
+iostream
+-
+Node.h
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/Node.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/Node.h
+
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/main.cpp
+iostream
+-
+BSTNode.cpp
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BSTNode.cpp
+BST.cpp
+C:/Users/istil/Desktop/istillmessup/DataStructures/BST/BST.cpp
+
