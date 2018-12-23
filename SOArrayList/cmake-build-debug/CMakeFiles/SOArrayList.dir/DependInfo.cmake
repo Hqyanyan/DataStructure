@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/SOArrayList.cpp" "C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/cmake-build-debug/CMakeFiles/SOArrayList.dir/SOArrayList.cpp.obj"
-  "C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/main.cpp" "C:/Users/istil/Desktop/gg/DataStructures/SOArrayList/cmake-build-debug/CMakeFiles/SOArrayList.dir/main.cpp.obj"
+  "C:/Users/istil/Desktop/code/DataStructure/SOArrayList/SOArrayList.cpp" "C:/Users/istil/Desktop/code/DataStructure/SOArrayList/cmake-build-debug/CMakeFiles/SOArrayList.dir/SOArrayList.cpp.obj"
+  "C:/Users/istil/Desktop/code/DataStructure/SOArrayList/main.cpp" "C:/Users/istil/Desktop/code/DataStructure/SOArrayList/cmake-build-debug/CMakeFiles/SOArrayList.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
