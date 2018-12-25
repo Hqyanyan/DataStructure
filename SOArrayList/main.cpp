@@ -1,25 +1,25 @@
 /*
-从文件中读入一组汉字集合，用自组织线性表保存。自组织线性表在查询时，采用转置法调整自组织线性表的内容。
-从文件中依次读入需查询的汉字，把查询结果保存在文件中（如找到，返回比较的次数，如果没有找到，返回比较的次数）
+���ļ��ж���һ�麺�ּ��ϣ�������֯���Ա����档����֯���Ա��ڲ�ѯʱ������ת�÷���������֯���Ա������ݡ�
+���ļ������ζ������ѯ�ĺ��֣��Ѳ�ѯ����������ļ��У����ҵ������رȽϵĴ��������û���ҵ������رȽϵĴ�����
 */
 
 #include <fstream>
 #include "SOArrayList.h"
 
 int main() {
-    std::string fileIn[5] = {
-            "../test1.txt",
-            "../test2.txt",
-            "../test3.txt",
-            "../test4.txt",
-            "../test5.txt"
+    const char* fileIn[5] = {
+            "test1.txt",
+            "test2.txt",
+            "test3.txt",
+            "test4.txt",
+            "test5.txt"
     };
-    std::string fileOut[5] = {
-            "../respond1.txt",
-            "../respond2.txt",
-            "../respond3.txt",
-            "../respond4.txt",
-            "../respond5.txt"
+    const char* fileOut[5] = {
+            "respond1.txt",
+            "respond2.txt",
+            "respond3.txt",
+            "respond4.txt",
+            "respond5.txt"
     };
 
     std::string temp;
@@ -33,7 +33,7 @@ int main() {
             int count = 1;
             while (!in.eof()) {
                 in >> temp;
-                std::cout << temp << std::endl;
+                // std::cout << temp << std::endl;
                 for (int i = 0; i < temp.length(); i += 2) {
                     if (count) {
                         test.append(temp[i], temp[i + 1]);
@@ -41,10 +41,10 @@ int main() {
                     else {
                         int k = test.find(temp[i], temp[i + 1]);
                         if (k != 12) {
-                            out << "查找成功，查找次数为" << k / 2 + 1;
+                            out << "���ҳɹ������Ҵ���Ϊ" << k / 2 + 1;
                         }
                         else {
-                            out << "查找失败，查找次数为" << k / 2;
+                            out << "����ʧ�ܣ����Ҵ���Ϊ" << k / 2;
                         }
                         out << std::endl;
                     }
@@ -52,9 +52,12 @@ int main() {
                 count = 0;
             }
         }
+        std::cout << std::endl << "test" << s + 1 << ".txt������ѯ�����Ա��е�ֵΪ��" << std::endl;
         test.print();
-        in.close();  //一定要记得关闭文件
+        in.close();  //һ��Ҫ�ǵùر��ļ�
         out.close();
+        std::cout << std::endl;
     }
+    system("pause");
     return 0;
 }

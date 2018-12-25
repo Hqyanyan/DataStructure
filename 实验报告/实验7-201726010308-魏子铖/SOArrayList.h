@@ -19,7 +19,7 @@ public:
 
     void append(char, char);
     int find(char, char);
-    void print(); //用于调试，记得删掉该功能
+    void print();
 };
 
 
